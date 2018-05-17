@@ -1,0 +1,2 @@
+Prefix plugins/NormScoreTransform/example/
+Plugin NormScoreTransform inputfile abund.csv outputfile abund.normscore.csv
