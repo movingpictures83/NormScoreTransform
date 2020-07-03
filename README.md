@@ -2,7 +2,8 @@
 # Language: R
 # Input: CSV (unscaled)
 # Output: CSV (scaled to a normal distribution with mean 0 and standard deviation 1)
-# Tested with: PluMA 1.0, R 3.2.5
+# Tested with: PluMA 1.1, R 4.0.0
+# Dependency: Hmisc 4.4.0
 
 PluMA plugin that takes an input CSV file and normalizes columns to have a mean of zero and a standard deviation of 1.
 This can be useful with data that contains multiple quantities measured over many samples; this plugin will
